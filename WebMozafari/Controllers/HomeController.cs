@@ -12,6 +12,7 @@ namespace WebMozafari.Controllers
 
         public IActionResult Index()
         {
+            var xxx = 10;
             Random r = new Random();
             var x = r.Next(500);
             var y = r.Next(500);
