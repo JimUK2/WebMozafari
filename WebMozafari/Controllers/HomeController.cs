@@ -14,7 +14,7 @@ namespace WebMozafari.Controllers
         {
             var xxx = 10;
             Random r = new Random();
-            var x = r.Next(500);
+            var x = r.Next(600);
             var y = r.Next(500);
             //welcome name famil sen old from city
             ViewBag.y = y;
